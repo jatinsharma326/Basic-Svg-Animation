@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2509 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Web_1920_1);
+      }
+
+      .cls-2, .cls-4, .cls-6, .cls-7 {
+        stroke: #707070;
+      }
+
+      .cls-10, .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-size: 68px;
+      }
+
+      .cls-3, .cls-5 {
+        font-family: SitkaBanner-Bold, Sitka Banner;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: #e33232;
+        font-size: 77px;
+      }
+
+      .cls-6 {
+        fill: #d21212;
+      }
+
+      .cls-7 {
+        fill: #e1d8d8;
+      }
+
+      .cls-8 {
+        stroke: none;
+      }
+
+      .cls-9 {
+        fill: none;
+      }
+    </style>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="2509" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" class="cls-1">
+    <rect class="cls-10" width="2509" height="1080"/>
+    <g id="Rectangle_1" data-name="Rectangle 1" class="cls-2">
+      <rect class="cls-8" width="2509" height="1080"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="2508" height="1079"/>
+    </g>
+    <text id="Get_Ready_to_Start" data-name="Get Ready to Start" class="cls-3" transform="translate(136 362)"><tspan x="0" y="0">Get Ready to Start</tspan></text>
+    <g id="Rectangle_2" data-name="Rectangle 2" class="cls-4" transform="translate(148 93)">
+      <rect class="cls-8" width="432" height="9"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="431" height="8"/>
+    </g>
+    <g id="Rectangle_3" data-name="Rectangle 3" class="cls-4" transform="translate(148 116)">
+      <rect class="cls-8" width="432" height="9"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="431" height="8"/>
+    </g>
+    <g id="Rectangle_4" data-name="Rectangle 4" class="cls-4" transform="translate(148 139)">
+      <rect class="cls-8" width="432" height="9"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="431" height="8"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" class="cls-4" transform="translate(148 162)">
+      <rect class="cls-8" width="432" height="9"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="431" height="8"/>
+    </g>
+    <g id="Rectangle_6" data-name="Rectangle 6" class="cls-4" transform="translate(148 185)">
+      <rect class="cls-8" width="432" height="9"/>
+      <rect class="cls-9" x="0.5" y="0.5" width="431" height="8"/>
+    </g>
+    <text id="Be_Protected_from_unwanted_Threat" data-name="Be Protected 
+from unwanted 
+Threat" class="cls-5" transform="translate(136 491)"><tspan x="0" y="0">Be Protected </tspan><tspan x="0" y="111">from unwanted </tspan><tspan x="0" y="222">Threat</tspan></text>
+    <path id="Path_1" data-name="Path 1" class="cls-6" d="M1252.93,0,1099.569,439.162,0,1069.012Z" transform="translate(40.604 7)"/>
+    <path id="Path_2" data-name="Path 2" class="cls-7" d="M1168.822,449.547,794.683,675.77v400.242Z"/>
+  </g>
+</svg>

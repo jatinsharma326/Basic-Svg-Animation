@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  /*  display none*/
+  display: none;
+}
+
+nav ul a {
+  display: block;
+  background: #0d1317;
+  padding: 20px;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #AD343E;
+  transition: color 1s ease, background 1s ease, padding 1s ease;
+}
+
+nav ul a:hover {
+  background: #474747;
+  color: #e0e0ce;
+  padding-left: 30px;
+}
+
+.nav-container {
+  padding: 0 20px;
+  background: #474747;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid #AD343E;
+}
+
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 7px;
+  background: #AD343E;
+}
+
+.btn {
+  padding: 2px;
+  display: inline-block;
+  border: 2px solid #AD343E;
+  align-self: center;
+}
+
+header {
+  min-height: 100vh;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(bg.svg) center/cover  no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+nav {
+  flex: 0 0 auto;
+}
+
+.banner {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #AD343E;
+}
+
+.banner h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #0d1317;
+}
+
+.and {
+  color: #f5f3f5;
+}
+
+.banner-icons {
+  padding: 20px;
+}
+
+.banner-icons a {
+  display: inline-block;
+  font-size: 30px;
+  background: #474747;
+  padding: 5px 10px;
+  margin: 0 10px;
+  border-radius: 50%;
+  color: #f5f3f5;
+  transition: color 1s ease, transform 1s ease;
+}
+
+.banner-icons a:hover {
+  color: #AD343E;
+  transform: translateY(-10px);
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+@media screen and (min-width:776px) {
+  nav ul {
+    display: flex!important;
+    /*    */
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgba(13, 19, 23, 0.8);
+  }
+  nav ul a {
+    background: transparent;
+  }
+  nav ul a:hover {
+    background: transparent;
+    padding-left: 20px;
+  }
+  .nav-container {
+    display: none;
+  }
+
+}
+svg{
+	width:100%;
+	height: 200px;
+	display:flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-left:250px;
+}
+.st0{enable-background:new    ;}
+	.st1{clip-path:url(#SVGID_2_);enable-background:new    ;}
+	.st2{fill:#21587F;}
+	.st3{fill:#225B84;}
+	.st4{fill:#235F89;}
+	.st5{fill:#25628E;}
+	.st6{fill:#235E89;}
+	.st7{clip-path:url(#SVGID_4_);enable-background:new    ;}
+	.st8{clip-path:url(#SVGID_6_);enable-background:new    ;}
+	.st9{fill:#266694;}
+	.st10{clip-path:url(#SVGID_8_);enable-background:new    ;}
+	.st11{clip-path:url(#SVGID_10_);enable-background:new    ;}
+	.st12{fill:#9A9A9A;}
+	.st13{fill:#FBFBFB;}
+	.st14{fill:#8E8E8E;}
+	.st15{clip-path:url(#SVGID_12_);enable-background:new    ;}
+	.st16{clip-path:url(#SVGID_14_);enable-background:new    ;}
+	.st17{fill:#3EA6F1;}
+	.st18{clip-path:url(#SVGID_16_);enable-background:new    ;}
+	.st19{clip-path:url(#SVGID_18_);enable-background:new    ;}
+	.st20{fill:#A8A8A8;}
+	.st21{fill:#ADADAD;}
+	.st22{fill:#B3B3B3;}
+	.st23{fill:#B8B8B8;}
+	.st24{fill:#BDBDBD;}
+	.st25{fill:#C2C2C2;}
+	.st26{fill:#C7C7C7;}
+	.st27{fill:#CCCCCC;}
+	.st28{fill:#D8D8D8;}
+	.st29{fill:#838383;}
+	.st30{clip-path:url(#SVGID_20_);enable-background:new    ;}
+	.st31{fill:#858585;}
+	.st32{clip-path:url(#SVGID_22_);enable-background:new    ;}
+	.st33{fill:#A3A3A3;}
+	.st34{fill:#9E9E9E;}
+	.st35{fill:#999999;}
+	.st36{fill:#949494;}
+	.st37{fill:#8F8F8F;}
+	.st38{fill:#8A8A8A;}
+	.st39{clip-path:url(#SVGID_24_);enable-background:new    ;}
+	.st40{fill:#C4C4C4;}
+	.st41{clip-path:url(#SVGID_26_);enable-background:new    ;}
+
+	svg:hover #logo{
+      animation-duration: 1.2s;
+      animation-name:animateLogo;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+	}
+	@keyframes animateLogo{
+		from{
+			transform:translateX(0) translateY(0);
+			opacity: 0;
+		}
+		to{
+			transform:translateX(25px) translateY(-23px);
+			opacity: 1;
+		}
+	}
